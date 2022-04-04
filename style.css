@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Concert+One&display=swap');
+
+:root {
+    --primary-: #70f2A0;
+}
+
+/* Fonts */
+.text-baloo {
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.text-concert-one {
+    font-family: 'Concert One', sans-serif;
+}
+
+/* Backgrounds & Texts*/
+.bg-green {
+    background-color: var(--primary-);
+}
+
+.text-green {
+    color: var(--primary-);
+}
+
+/* Showcase */
+.showcase {
+    padding-top: 150px;
+}
+.showcase img {
+    transform: scaleX(-1);
+}
+
+/* About & Roadmap */
+.about img {
+    height: 150px;
+}
+
+.about .nft-showcase {
+    padding: 200px 0;
+}
+.about .roadmap {
+    margin: 200px 0;
+}
+
+.about .roadmap .card {
+    width: 300px;
+    height: 300px;
+}
+
+.roadmap img {
+    height: 96px;
+    width: 96px;
+}
+
+/* Team */
+.team img {
+    height: 200px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .showcase {
+        padding-top: 70px;
+    }
+
+    .about .roadmap {
+        margin: 100px 0;
+    }
+}
+
+
+/* Utilities */
+.text-shadow-grey-5 {
+    text-shadow: 1px 1px #333, 
+                2px 2px #333, 
+                3px 3px #333,
+                4px 4px #333,
+                5px 5px #333;
+}
+
+.text-shadow-grey-3 {
+    text-shadow: 1px 1px #333, 
+                    2px 2px #333, 
+                    3px 3px #333;
+}
+
+.text-shadow-white-5 {
+    text-shadow: 1px 1px #fff, 
+                2px 2px #fff, 
+                3px 3px #fff,
+                4px 4px #fff,
+                5px 5px #fff;
+}
+
+.text-shadow-white-3 {
+    text-shadow: 1px 1px #fff, 
+                    2px 2px #fff, 
+                    3px 3px #fff;
+}
+
+.shadow-black-10 {
+    box-shadow: 1px 1px #000,
+                2px 2px #000,  
+                3px 3px #000,  
+                4px 4px #000,  
+                5px 5px #000,
+                6px 6px #000,
+                7px 7px #000,
+                8px 8px #000,
+                9px 9px #000,
+                10px 10px #000;
+}
+
+.shadow-black-5 {
+    box-shadow: 1px 1px #000,
+                2px 2px #000,  
+                3px 3px #000,  
+                4px 4px #000,  
+                5px 5px #000;
+}
